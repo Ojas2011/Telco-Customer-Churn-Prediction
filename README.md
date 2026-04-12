@@ -1,24 +1,37 @@
 # Telco-Customer-Churn
+Research Question: Based on customer reviews and their responses to different questions about Telco, what is the likelihood of them returning as customers again? 
 
-The data has been chosen from Kaggle called ‘Telco Customer Churn’ which is the IBM Samples Data Sets. Each row represents customer and each column contains the customer’s attributes described in the column Metadata. The raw data contains 7043 rows (customers) and 21 columns (features). The ‘Churn’ column is the target to predict.
-
-- Customers who left within the last month – the column is called Churn
-- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-- Demographic info about customers – gender, age range, and if they have partners and dependents
 
 ## Objective
 
-- To understand customer behaviour how they using company product.
-- To detecting which customers are likely to leave a service or to cancel a subscription to a service.
-- Reduce company churn rate. which make company to higher profit margin.
+- To analyze the data of different customers who said yes and who said no to continuing doing business with the company.
+- To make conclusions and predictions based on the data abotu what kinds of factors are contributing/likely to contribute to people quitting churn with Telco.
 
-## Dev tools
+## Dataset 
+- The dataset can be found at [https://github.com/Nas-virat/Telco-Customer-Churn.git](url)
+- To find the dataset specifically go to: [https://github.com/Nas-virat/Telco-Customer-Churn/blob/main/Telco-Customer-Churn.csv](url)
 
-1. Pandas, Numpy, Matplotlib, Seaborn, and Sklearn
-2. Jupyter Notebook
-3. Python
-
-## Presentation
-
-https://www.canva.com/design/DAFBrmASkhE/L_13R5DxchwXHB40ffLWlg/view?utm_content=DAFBrmASkhE&utm_campaign=designshare&utm_medium=link&utm_source=viewer
+## Variables:
+Header | Description
+---|---------
+`customerID` | ID of specific customers
+`gender` | Gender of customer
+`SeniorCitizen` | Whether the customer is a senior citizen or not
+`Partner` | Whether the customer has a partner or not
+`Dependents` | Whether the customer is a dependent or not
+`tenure` | Tenure of a customer
+`PhoneService` | Which phone service customer uses(if they use it)
+`MultipleLines` | Whether customer has multiple lines
+`InternetService` | Which internet service(if used) is used by a customer
+`OnlineSecurity` | Whether customer has online security
+`OnlineBackup` | Whether customer has online backup
+`DeviceProtection` | Whether customer has device protection
+`TechSupport` | Whether customer has tech support
+`StreamingTV` | Whether customer has/uses streaming TV
+`StreamingMovies` | Whether customer has/uses streaming movies
+`Contract` | Description of customer contract
+`PaperlessBilling` | Whether customer has paperless billing
+`PaymentMethod` | Payment method used by the customer
+`MonthlyCharges` | Monthly charges for a customer
+`TotalCharges` | Total amount of charges for a customer
+`Churn` | Whether customers want to return or not
