@@ -8,8 +8,8 @@ Research Question: Based on customer reviews and their responses to different qu
 - To make conclusions and predictions based on the data abotu what kinds of factors are contributing/likely to contribute to people quitting churn with Telco.
 
 ## Dataset 
-- The dataset can be found at [https://github.com/Nas-virat/Telco-Customer-Churn.git](url)
-- To find the dataset specifically go to: [https://github.com/Nas-virat/Telco-Customer-Churn/blob/main/Telco-Customer-Churn.csv](url)
+- The dataset can be found at Nas-virat. (n.d.). Telco-customer-churn [Dataset]. GitHub. https://github.com/Nas-virat/Telco-Customer-Churn
+- To find the dataset specifically go to: Nas-virat. (n.d.). Telco-customer-churn [Dataset]. GitHub. https://github.com/Nas-virat/Telco-Customer-Churn
 
 ## Variables:
 Header | Description
